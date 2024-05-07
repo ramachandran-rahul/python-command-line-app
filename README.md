@@ -19,29 +19,34 @@ Usage and Expected Outputs
 
 Use the script from the command line by specifying an option and the argument file:
 
-# List all languages in alphabetical order
+
+List all languages in alphabetical order
 
 python languages.py -a argument_file
 
-# Output: Languages in this file: Chinese, English, German, Hindi, Italian, Japanese, Korean, Vietnamese
+Output: Languages in this file: Chinese, English, German, Hindi, Italian, Japanese, Korean, Vietnamese
 
-# Search for a language by ISO code
+
+Search for a language by ISO code
 
 python languages.py -c 'it' argument_file
 
-# Output: Italian
+Output: Italian
 
-# Filter languages by character set
+
+Filter languages by character set
 
 python languages.py -s 'ISO-8859-1' argument_file
 
-# Output: German, English, Italian
+Output: German, English, Italian
 
-# View author credentials (requires argument file but does not use it)
+
+View author credentials (requires argument file but does not use it)
 
 python languages.py -v argument_file
 
-# Output: [Your Name, Student ID, Date of Completion]
+Output: [Your Name, Student ID, Date of Completion]
+
 
 Note: The `argument_file` parameter in these examples should be replaced with the actual file name containing the language data.
 
